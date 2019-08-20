@@ -6,7 +6,7 @@ namespace App\Adapter;
 
 class SourceOneAdapter implements CurrencyInterface
 {
-    protected $address, $data;
+    protected $data;
 
     public function readData($data)
     {
